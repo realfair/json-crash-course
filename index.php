@@ -75,7 +75,7 @@ xmlhttp.onreadystatechange = function() {
         //$("#demo").append();
     }
 };
-xmlhttp.open("GET", "http://localhost:8080/kiza/api/index.php?controller=members&cooperative=7&action=getCooperativeMembers", true);
+xmlhttp.open("GET", "http://www.agri.kizalab.com/kiza/api/index.php?controller=members&action=getMembers&token=42941b300ec72d59e57b97b95d9166df&cooperative=7", true);
 xmlhttp.send();
 }
 function show(msg){
